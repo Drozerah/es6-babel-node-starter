@@ -1,0 +1,26 @@
+{
+  "name": "babel-dev-env",
+  "version": "1.0.0",
+  "description": "Node + Babel - compile ES6 to ES5",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "touch index.html && touch index.js && mkdir dist",
+    "clean:dist": "rm -rf dist && mkdir dist",
+    "build:dev": "npm run clean:dist && babel index.js --out-file dist/app.js",
+    "build:dev:watch": "npm run clean:dist && babel index.js --out-file dist/app.js --watch",
+    "build": "npm run clean:dist && babel index.js --out-file dist/app.js --source-maps inline",
+    "build:minify": "npm run clean:dist && babel index.js --out-file dist/app.min.js --source-maps inline --presets minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Drozerah/es6-babel-node-starter.git"
+  },
+  "author": "Drozerah",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-preset-minify": "^0.5.0"
+  }
+}

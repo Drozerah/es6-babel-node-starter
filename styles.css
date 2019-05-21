@@ -1,0 +1,60 @@
+body,html{
+    height: 100%;
+    background-color: #E7E7E7;
+    padding: 0px; /* reset default */
+    margin: 0px; /* reset default */
+}
+body{
+    display: grid;
+    justify-items: center; /* horizontal alignment */
+    
+}
+h1{
+    padding: 20px;
+    border: 2px solid #00e0a5;
+    box-shadow: 5px 6px 0px #00e0a5;
+    font-size:30px;
+    color:#333;
+    font-family: monospace;
+}
+main{
+    align-self: end;
+}
+
+footer{
+    align-self: start;
+}
+
+/* DROZERAH */
+
+.drozerah {
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 24px;
+    height: 24px;
+    color:#333;   
+}
+.drozerah svg {
+    width:20px;
+    height:20px;
+    display: inline-block;
+    vertical-align: -2px;
+}
+
+.drozerah path {
+    fill: #6a1b9a;
+    fill-rule: evenodd;
+}
+
+.drozerah span {
+    display: inline-block;
+    color: #6a1b9a;
+}
+
+.drozerah:hover path {
+    fill:purple;
+}
+
+.drozerah:hover span {
+    color: purple;
+}
