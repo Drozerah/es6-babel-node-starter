@@ -6,7 +6,7 @@
 
 The technique called _transpiling_ (transformation + compiling) is based on the usage of special tools to transform ES6 code into equivalent or close matches that works in ES5 environments.
 
-This _ready to go_ configuration is aimed to give the JavaScript developer the capability to quickly set up a Node.js environment and deliver ES5 from ES6 without worrying time into the maze of `Babel` configuration options and its plugins... It gives you the minimum setting to start a new project or evaluate any new ideas and it includes one HTML code base to fulfil this objectif as well.
+This _ready to go_ configuration is aimed to give the JavaScript developer the capability to quickly set up a Node.js environment and deliver ES5 from ES6 without worrying time into the maze of `Babel` configuration options and its plugins... It gives you the minimum settings to start a new project or evaluate any new ideas and it includes one HTML code base to fulfill this objective as well.
 
 ![img](https://raw.githubusercontent.com/Drozerah/MyGitHubStorage/master/img/babel-transpilation/readme-tree-structure.png)
 
@@ -94,7 +94,7 @@ __Production import:__
   //...
 ```
 __* source maps:__
-  - note that the generated Source Map is included in the compiled file. If you need a separated file pleaze refer to the [Babel Source Map Documentation](https://babeljs.io/docs/en/options#source-map-options)
+  - note that the generated Source Map is included in the compiled file. If you need a separated file please refer to the [Babel Source Map Documentation](https://babeljs.io/docs/en/options#source-map-options)
 
 __** JS comments for production:__
   - by default, any JS comments in the output code from `Babel` are preserved. If you want to remove them for production, you'll need to change the boolean value of the ``"comments"`` property into the `.babelrc` file like so:
