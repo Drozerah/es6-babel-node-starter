@@ -49,7 +49,7 @@ __NPM script exemple:__
 $ npm run build:dev
 ```
 
-- this script will compile your code as raw ES6 and then export it into the `./dist` folder as `./dist/app.js` without providing minification neither source maps (as discribed earlyer in the "Default Configuration" section of this page). All your JS comments are preserved (see further to remove JS comments for production).
+- this script will compile your code as raw ES5 and then export it into the `./dist` folder as `./dist/app.js` without providing minification neither source maps (as discribed earlyer in the "Default Configuration" section of this page). All your JS comments are preserved (see further to remove JS comments for production).
 
 __NPM scripts:__ 
 
