@@ -6,7 +6,7 @@
 
 The technique called _transpiling_ (transformation + compiling) is based on the usage of special tools to transform ES6 code into equivalent or close matches that works in ES5 environments.
 
-This _ready to go_ configuration is aimed to give the JavaScript developer the capability to quickly set up a Node.js environment and deliver ES5 from ES6 without worrying time into the maze of `Babel` configuration options and its plugins... It gives you the minimum settings to start a new project or evaluate any new ideas and it includes one HTML code base to fulfill this objective as well.
+This _ready to go_ configuration is aimed to give the JavaScript developer the capability to quickly set up a Node.js environment and deliver ES5 from ES6 without wasting time in the maze of `Babel` configuration options and its plugins... It gives you the minimum settings to start a new project or evaluate any new ideas and it includes one HTML code base to fulfill this objective as well.
 
 ![img](https://raw.githubusercontent.com/Drozerah/MyGitHubStorage/master/img/babel-transpilation/readme-tree-structure.png)
 
@@ -129,6 +129,7 @@ We use [SemVer](http://semver.org/) for versioning.
 #### Acknowledgments
 
 - [Babel & preset-env](https://codeburst.io/babel-preset-env-cbc0bbf06b8f)
+- Thanks to [@lbonanomi](https://github.com/lbonanomi) for the `README.md` revisions
 
 #### License
 
