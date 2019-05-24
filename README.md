@@ -112,11 +112,11 @@ __** JS comments for production:__
 
 #### Built With
 
-[@babel/cli](https://babeljs.io/docs/en/babel-cli)
-[babel-preset-minify](https://github.com/babel/minify/tree/master/packages/babel-preset-minify)
-[Node.js](https://nodejs.org/en/)
-[NPM](https://www.npmjs.com/)
-[Visual Studio Code](https://code.visualstudio.com/)
+- [@babel/cli](https://babeljs.io/docs/en/babel-cli)
+- [babel-preset-minify](https://github.com/babel/minify/tree/master/packages/babel-preset-minify)
+- [Node.js](https://nodejs.org/en/)
+- [NPM](https://www.npmjs.com/)
+- [Visual Studio Code](https://code.visualstudio.com/)
 
 #### Versioning
 
