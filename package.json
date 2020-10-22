@@ -1,6 +1,6 @@
 {
   "name": "babel-dev-env",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Node + Babel - compile ES6 to ES5",
   "main": "index.js",
   "scripts": {
